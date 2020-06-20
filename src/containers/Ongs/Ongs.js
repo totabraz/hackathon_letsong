@@ -68,7 +68,7 @@ const Ongs = (props) => {
 		{
 			index: "10",
 			name: "ACiranda Social",
-			img: "/images/ongs/1.png",
+			img: "/images/ongs/10.png",
 			paragraph:
 				"A Ciranda Social trabalha para que crianças e adolescentes tenham amparo e estrutura durante o tratamento oncológico e de outras doenças não infecciosas, valorizando sempre a vida! Juntos alcançamos melhores resultados, principalmente no que diz respeito ao futuro de nossas crianças, adolescentes e de suas famílias.",
 		},
