@@ -12,34 +12,22 @@ const footer = (props) => {
 					<h5>Features</h5>
 					<ul className="list-unstyled text-small">
 						<li>
-							<a className="text-muted" href="#">
-								Cool stuff
-							</a>
+							<p className="text-muted">Cool stuff</p>
 						</li>
 						<li>
-							<a className="text-muted" href="#">
-								Random feature
-							</a>
+							<p className="text-muted">Random feature</p>
 						</li>
 						<li>
-							<a className="text-muted" href="#">
-								Team feature
-							</a>
+							<p className="text-muted">Team feature</p>
 						</li>
 						<li>
-							<a className="text-muted" href="#">
-								Stuff for developers
-							</a>
+							<p className="text-muted">Stuff for developers</p>
 						</li>
 						<li>
-							<a className="text-muted" href="#">
-								Another one
-							</a>
+							<p className="text-muted">Another one</p>
 						</li>
 						<li>
-							<a className="text-muted" href="#">
-								Last time
-							</a>
+							<p className="text-muted">Last time</p>
 						</li>
 					</ul>
 				</div>
@@ -47,24 +35,16 @@ const footer = (props) => {
 					<h5>Resources</h5>
 					<ul className="list-unstyled text-small">
 						<li>
-							<a className="text-muted" href="#">
-								Resource
-							</a>
+							<p className="text-muted">Resource</p>
 						</li>
 						<li>
-							<a className="text-muted" href="#">
-								Resource name
-							</a>
+							<p className="text-muted">Resource name</p>
 						</li>
 						<li>
-							<a className="text-muted" href="#">
-								Another resource
-							</a>
+							<p className="text-muted">Another resource</p>
 						</li>
 						<li>
-							<a className="text-muted" href="#">
-								Final resource
-							</a>
+							<p className="text-muted">Final resource</p>
 						</li>
 					</ul>
 				</div>
@@ -72,24 +52,16 @@ const footer = (props) => {
 					<h5>Resources</h5>
 					<ul className="list-unstyled text-small">
 						<li>
-							<a className="text-muted" href="#">
-								Business
-							</a>
+							<p className="text-muted">Business</p>
 						</li>
 						<li>
-							<a className="text-muted" href="#">
-								Education
-							</a>
+							<p className="text-muted">Education</p>
 						</li>
 						<li>
-							<a className="text-muted" href="#">
-								Government
-							</a>
+							<p className="text-muted">Government</p>
 						</li>
 						<li>
-							<a className="text-muted" href="#">
-								Gaming
-							</a>
+							<p className="text-muted">Gaming</p>
 						</li>
 					</ul>
 				</div>
@@ -97,24 +69,16 @@ const footer = (props) => {
 					<h5>About</h5>
 					<ul className="list-unstyled text-small">
 						<li>
-							<a className="text-muted" href="#">
-								Team
-							</a>
+							<p className="text-muted">Team</p>
 						</li>
 						<li>
-							<a className="text-muted" href="#">
-								Locations
-							</a>
+							<p className="text-muted">Locations</p>
 						</li>
 						<li>
-							<a className="text-muted" href="#">
-								Privacy
-							</a>
+							<p className="text-muted">Privacy</p>
 						</li>
 						<li>
-							<a className="text-muted" href="#">
-								Terms
-							</a>
+							<p className="text-muted">Terms</p>
 						</li>
 					</ul>
 				</div>
