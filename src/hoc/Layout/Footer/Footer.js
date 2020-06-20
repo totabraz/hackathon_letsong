@@ -10,7 +10,7 @@ const footer = React.forwardRef((props, ref) => {
 					<br />
 				</div>
 				<div className="col-12 col-sm-6 ">
-					<h5>Ser Parseiro</h5>
+					<h5>{"Ser Parceiro :)"}</h5>
 					<ul className="list-unstyled text-small ">
 						<li>
 							<p className="text-muted">parceiros@letsong.ong</p>
@@ -21,7 +21,7 @@ const footer = React.forwardRef((props, ref) => {
 					</ul>
 				</div>
 				<div className="col-12 col-sm-6 ">
-					<h5>Cadastrar Ong</h5>
+					<h5>{"Cadastrar Ong :)"}</h5>
 					<ul className="list-unstyled text-small ">
 						<li>
 							<p className="text-muted">ongs@letsong.ong</p>

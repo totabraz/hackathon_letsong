@@ -23,9 +23,9 @@ const TopNav = ({ toRef }) => {
 				</NavLink>
 				<NavLink
 					className="py-2  d-md-inline-block"
-					to={"/hackathon_letsong/ongs"}
+					to={"/hackathon_letsong/ONGs"}
 				>
-					ONGS
+					ONGs
 				</NavLink>
 				<NavLink
 					className="py-2  d-md-inline-block"

@@ -122,7 +122,7 @@ const Parceiros = (props) => {
 			<div className="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-">
 				<div className="col-md-7 p-lg-5 mx-auto my-5">
 					<h1 className="display-4 font-weight-normal">
-						PARCEIROS DAS ONGS
+						PARCEIROS DAS ONGs
 					</h1>
 					<p className="lead font-weight-normal">
 						Verifique se sua empresa realmente ajuda o mundo ser um

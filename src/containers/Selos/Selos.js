@@ -98,17 +98,6 @@ const Selos = (props) => {
 		reverse = !reverse;
 	}
 
-	const filterSelos = (name = "") => {
-		let tempSelos = initial_selos;
-
-		if (name !== "") {
-			tempSelos = initial_selos.filter((parceiro) => {
-				return simplestText(parceiro.name).includes(simplestText(name));
-			});
-		}
-		setSelos(tempSelos);
-	};
-
 	return (
 		<div>
 			<div className="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-">
@@ -121,11 +110,6 @@ const Selos = (props) => {
 						mundo o quanto você ou sua marca se importam com o mundo
 						ao seu redor
 					</p>
-					<input
-						type="text"
-						placeholder={"Nome do Parceiro"}
-						onChange={(event) => filterSelos(event.target.value)}
-					/>
 				</div>
 			</div>
 			{_content}

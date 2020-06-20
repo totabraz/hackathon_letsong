@@ -3,7 +3,7 @@ import "./App.scss";
 import Layout from "./hoc/Layout/Layout";
 import Home from "./containers/Home/Home";
 import { Switch, Route, Redirect } from "react-router-dom";
-import Ongs from "./containers/Ongs/Ongs";
+import ONGs from "./containers/ONGs/ONGs";
 import Parceiros from "./containers/Parceiros/Parceiros";
 import Selos from "./containers/Selos/Selos";
 
@@ -15,7 +15,7 @@ let _routes = (
 			exact
 			component={Parceiros}
 		/>
-		<Route path={"/hackathon_letsong/ongs"} exact component={Ongs} />
+		<Route path={"/hackathon_letsong/ONGs"} exact component={ONGs} />
 		<Route path={"/hackathon_letsong/selos"} exact component={Selos} />
 
 		<Route path={"/hackathon_letsong/home"} exact component={Home} />
