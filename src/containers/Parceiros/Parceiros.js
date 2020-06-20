@@ -5,25 +5,25 @@ const Parceiros = (props) => {
 		{
 			index: "1",
 			name: "Sebrae",
-			img: "/images/parcerios/sebrae.png",
+			img: "/hackathon_letsong/images/parcerios/sebrae.png",
 			paragraph: "Parcerio LET'S ONG!",
 		},
 		{
 			index: "2",
 			name: "SocialHack",
-			img: "/images/parcerios/socialhack.png",
+			img: "/hackathon_letsong/images/parcerios/socialhack.png",
 			paragraph: "Parcerio LET'S ONG!",
 		},
 		{
 			index: "3",
 			name: "Startupdays",
-			img: "/images/parcerios/startupdays.png",
+			img: "/hackathon_letsong/images/parcerios/startupdays.png",
 			paragraph: "Parcerio LET'S ONG!",
 		},
 		{
 			index: "4",
 			name: "RedBull",
-			img: "/images/parcerios/redbull.png",
+			img: "/hackathon_letsong/images/parcerios/redbull.png",
 			paragraph: "Parcerio LET'S ONG!",
 		},
 	];
