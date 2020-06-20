@@ -122,7 +122,7 @@ const Parceiros = (props) => {
 			<div className="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-">
 				<div className="col-md-7 p-lg-5 mx-auto my-5">
 					<h1 className="display-4 font-weight-normal">
-						VALIDADOR DE PARCEIRO
+						PARCEIROS DAS ONGS
 					</h1>
 					<p className="lead font-weight-normal">
 						Verifique se sua empresa realmente ajuda o mundo ser um
@@ -130,7 +130,7 @@ const Parceiros = (props) => {
 					</p>
 					<input
 						type="text"
-						placeholder={"Nome do Parceiro"}
+						placeholder={"Pesquisar Parceiro"}
 						onChange={(event) =>
 							filterParceiros(event.target.value)
 						}

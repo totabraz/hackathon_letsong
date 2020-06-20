@@ -114,11 +114,12 @@ const Selos = (props) => {
 			<div className="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-">
 				<div className="col-md-7 p-lg-5 mx-auto my-5">
 					<h1 className="display-4 font-weight-normal">
-						VALIDADOR DE PARCEIRO
+						NOSSOS SELOS
 					</h1>
 					<p className="lead font-weight-normal">
-						Verifique se sua empresa realmente ajuda o mundo ser um
-						lugar melhor
+						<strong>Aplique nossos selos!</strong> Mostre para o
+						mundo o quanto você ou sua marca se importam com o mundo
+						ao seu redor
 					</p>
 					<input
 						type="text"
