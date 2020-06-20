@@ -1,6 +1,9 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 const Ongs = (props) => {
+	useEffect(() => {
+		window.scrollTo(0, 0);
+	}, []);
 	const ongs = [
 		{
 			index: "1",
@@ -75,6 +78,7 @@ const Ongs = (props) => {
 	];
 
 	const _content = [];
+	let reverse = true;
 	for (let index = 0; index < ongs.length; index = index + 2) {
 		const ongA = (
 			<div className="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
@@ -90,7 +94,7 @@ const Ongs = (props) => {
 			</div>
 		);
 		let ongB = (
-			<div className="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+			<div className="bg-white mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
 				{ongs[index + 1] ? (
 					<>
 						<div className="my-3 p-3">
@@ -99,7 +103,7 @@ const Ongs = (props) => {
 							</h2>
 							<p className="lead">{ongs[index + 1].paragraph}</p>
 						</div>
-						<div className="bg-white box-shadow mx-auto">
+						<div className="bg-light box-shadow mx-auto">
 							<figure>
 								<img src={ongs[index + 1].img} alt="" />
 							</figure>
@@ -113,23 +117,27 @@ const Ongs = (props) => {
 				key={index}
 				className="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3"
 			>
-				{ongA}
-				{ongB}
+				{reverse ? ongA : ongB}
+				{reverse ? ongB : ongA}
 			</div>
 		);
+		reverse = !reverse;
 	}
 
 	return (
 		<div>
 			<div className="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
-				<div className="col-md-5 p-lg-5 mx-auto my-5">
+				<div className="col-md-7 p-lg-5 mx-auto my-5">
 					<h1 className="display-4 font-weight-normal">
 						ONG'S PARECEIRAS
 					</h1>
 					<p className="lead font-weight-normal">
-						And an even wittier subheading to boot. Jumpstart your
-						marketing efforts with this example based on Apple's
-						marketing pages.
+						<strong>Todas as ONGs nesta página </strong>
+						passaram por uma verificação*, sendo constatado a
+						veracidade de sua atuação, transparência e causa social.
+					</p>
+					<p className="lead font-weight-normal ">
+						Estão em dia com nossa verificação trimestral
 					</p>
 				</div>
 			</div>

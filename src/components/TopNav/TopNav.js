@@ -2,14 +2,17 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import "./TopNav.scss";
 
-const TopNav = (props) => {
+const TopNav = ({ toRef }) => {
 	return (
 		<nav className="site-header sticky-top py-1">
 			<div className="container d-flex flex-column flex-md-row justify-content-between">
 				<NavLink
-					className="py-2  d-md-inline-block"
+					className="py-2  d-md-inline-block LogoNav"
 					to={"/hackathon_letsong/home"}
 				>
+					<figure>
+						<img src="/hackathon_letsong/images/icon.png" alt="" />
+					</figure>
 					LET'S ONG
 				</NavLink>
 				<NavLink
@@ -30,18 +33,17 @@ const TopNav = (props) => {
 				>
 					SELOS
 				</NavLink>
-				<NavLink
+				<button
+					tabIndex={0}
 					className="py-2  d-md-inline-block"
-					to={"/hackathon_letsong/validador"}
-				>
-					VALIDAR PARCEIRO
-				</NavLink>
-				<NavLink
-					className="py-2  d-md-inline-block"
-					to={"/hackathon_letsong/contato"}
+					onClick={() => {
+						console.log("clicked");
+
+						window.scrollTo(0, toRef.current.offsetTop);
+					}}
 				>
 					CONTATO
-				</NavLink>
+				</button>
 			</div>
 		</nav>
 	);

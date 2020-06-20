@@ -4,10 +4,12 @@ import TopNav from "../../components/TopNav/TopNav";
 import Footer from "./Footer/Footer";
 
 const Layout = (props) => {
+	const ref = React.createRef();
+
 	return (
 		<div>
 			<div className={classes.Layout}>
-				<TopNav />
+				<TopNav toRef={ref} />
 				<div className={classes.LayoutBody}>
 					<div className={"container-fluid " + classes.Page}>
 						<div className={classes.HeaderCorrectio} />
@@ -15,7 +17,7 @@ const Layout = (props) => {
 					</div>
 				</div>
 			</div>
-			<Footer></Footer>
+			<Footer ref={ref} />
 		</div>
 	);
 };
