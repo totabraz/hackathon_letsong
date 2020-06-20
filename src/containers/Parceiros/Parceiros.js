@@ -32,17 +32,13 @@ const Parceiros = (props) => {
 	for (let index = 0; index < pareceiros.length; index = index + 2) {
 		const ongA = (
 			<div className="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-				{/* <div className="my-3 p-3">
+				<div className="my-3 p-3">
 					<h2 className="display-5">{pareceiros[index].name}</h2>
 					<p className="lead">{pareceiros[index].paragraph}</p>
-				</div> */}
+				</div>
 				<div className="bg-white box-shadow mx-auto">
 					<figure>
-						<img
-							src={pareceiros[index].img}
-							alt={pareceiros[index].name}
-							title={pareceiros[index].name}
-						/>
+						<img src={pareceiros[index].img} alt="" />
 					</figure>
 				</div>
 			</div>
@@ -51,21 +47,17 @@ const Parceiros = (props) => {
 		if (pareceiros[index + 1])
 			ongB = (
 				<div className="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-					{/* <div className="my-3 p-3">
+					<div className="my-3 p-3">
 						<h2 className="display-5">
 							{pareceiros[index + 1].name}
 						</h2>
 						<p className="lead">
 							{pareceiros[index + 1].paragraph}
 						</p>
-					</div> */}
+					</div>
 					<div className="bg-white box-shadow mx-auto">
 						<figure>
-							<img
-								src={pareceiros[index + 1].img}
-								alt={pareceiros[index + 1].name}
-								title={pareceiros[index + 1].name}
-							/>
+							<img src={pareceiros[index + 1].img} alt="" />
 						</figure>
 					</div>
 				</div>

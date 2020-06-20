@@ -53,17 +53,8 @@ ul.info-mb {
 	list-style: none;
 	padding: 0;
 }
-figure {
-	height: 100%;
-	flex: 1 1 auto;
-	img {
-		height: 100%;
-		width: auto;
-		padding: 50px 25px 15px;
-	}
-}
-p.lead {
-	max-width: 80%;
-	margin-left: 10%;
-	text-align: left;
+figure img {
+	width: 100%;
+	height: auto;
+	padding: 50px;
 }
