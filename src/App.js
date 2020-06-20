@@ -20,7 +20,7 @@ let _routes = (
 		<Route path={"/hackathon_letsong/validador"} exact component={Home} />
 		<Route path={"/hackathon_letsong/contato"} exact component={Home} />
 		<Route path={"/hackathon_letsong/home"} exact component={Home} />
-		{/* <Redirect to={"/hackathon_letsong/home"} /> */}
+		<Redirect to={"/hackathon_letsong/home"} />
 	</Switch>
 );
 

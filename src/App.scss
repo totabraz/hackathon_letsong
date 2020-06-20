@@ -53,8 +53,11 @@ ul.info-mb {
 	list-style: none;
 	padding: 0;
 }
-figure img {
-	width: 100%;
-	height: auto;
-	padding: 50px;
+figure {
+	max-height: 250px;
+	img {
+		height: 100%;
+		width: auto;
+		padding: 50px;
+	}
 }
