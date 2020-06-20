@@ -5,25 +5,25 @@ const Parceiros = (props) => {
 		{
 			index: "1",
 			name: "Sebrae",
-			img: "/hackathon_letsong/images/parcerios/sebrae.png",
+			img: "/images/parcerios/sebrae.png",
 			paragraph: "Parcerio LET'S ONG!",
 		},
 		{
 			index: "2",
 			name: "SocialHack",
-			img: "/hackathon_letsong/images/parcerios/socialhack.png",
+			img: "/images/parcerios/socialhack.png",
 			paragraph: "Parcerio LET'S ONG!",
 		},
 		{
 			index: "3",
 			name: "Startupdays",
-			img: "/hackathon_letsong/images/parcerios/startupdays.png",
+			img: "/images/parcerios/startupdays.png",
 			paragraph: "Parcerio LET'S ONG!",
 		},
 		{
 			index: "4",
 			name: "RedBull",
-			img: "/hackathon_letsong/images/parcerios/redbull.png",
+			img: "/images/parcerios/redbull.png",
 			paragraph: "Parcerio LET'S ONG!",
 		},
 	];
@@ -32,13 +32,17 @@ const Parceiros = (props) => {
 	for (let index = 0; index < pareceiros.length; index = index + 2) {
 		const ongA = (
 			<div className="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-				<div className="my-3 p-3">
+				{/* <div className="my-3 p-3">
 					<h2 className="display-5">{pareceiros[index].name}</h2>
 					<p className="lead">{pareceiros[index].paragraph}</p>
-				</div>
+				</div> */}
 				<div className="bg-white box-shadow mx-auto">
 					<figure>
-						<img src={pareceiros[index].img} alt="" />
+						<img
+							src={pareceiros[index].img}
+							alt={pareceiros[index].name}
+							title={pareceiros[index].name}
+						/>
 					</figure>
 				</div>
 			</div>
@@ -47,17 +51,21 @@ const Parceiros = (props) => {
 		if (pareceiros[index + 1])
 			ongB = (
 				<div className="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-					<div className="my-3 p-3">
+					{/* <div className="my-3 p-3">
 						<h2 className="display-5">
 							{pareceiros[index + 1].name}
 						</h2>
 						<p className="lead">
 							{pareceiros[index + 1].paragraph}
 						</p>
-					</div>
+					</div> */}
 					<div className="bg-white box-shadow mx-auto">
 						<figure>
-							<img src={pareceiros[index + 1].img} alt="" />
+							<img
+								src={pareceiros[index + 1].img}
+								alt={pareceiros[index + 1].name}
+								title={pareceiros[index + 1].name}
+							/>
 						</figure>
 					</div>
 				</div>

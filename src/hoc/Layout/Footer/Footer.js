@@ -8,113 +8,63 @@ const footer = (props) => {
 				<div className="col-12">
 					<h5>Features</h5>
 				</div>
-				<div className="col-6 col-md">
+				<div className="col-12 col-sm-6">
 					<h5>Features</h5>
 					<ul className="list-unstyled text-small">
 						<li>
-							<a className="text-muted" href="#">
+							<p className="text-muted" href="#">
 								Cool stuff
-							</a>
+							</p>
 						</li>
 						<li>
-							<a className="text-muted" href="#">
+							<p className="text-muted" href="#">
 								Random feature
-							</a>
+							</p>
 						</li>
 						<li>
-							<a className="text-muted" href="#">
+							<p className="text-muted" href="#">
 								Team feature
-							</a>
+							</p>
 						</li>
 						<li>
-							<a className="text-muted" href="#">
+							<p className="text-muted" href="#">
 								Stuff for developers
-							</a>
+							</p>
 						</li>
 						<li>
-							<a className="text-muted" href="#">
+							<p className="text-muted" href="#">
 								Another one
-							</a>
+							</p>
 						</li>
 						<li>
-							<a className="text-muted" href="#">
+							<p className="text-muted" href="#">
 								Last time
-							</a>
+							</p>
 						</li>
 					</ul>
 				</div>
-				<div className="col-6 col-md">
+				<div className="col-12 col-sm-6">
 					<h5>Resources</h5>
 					<ul className="list-unstyled text-small">
 						<li>
-							<a className="text-muted" href="#">
+							<p className="text-muted" href="#">
 								Resource
-							</a>
+							</p>
 						</li>
 						<li>
-							<a className="text-muted" href="#">
+							<p className="text-muted" href="#">
 								Resource name
-							</a>
+							</p>
 						</li>
 						<li>
-							<a className="text-muted" href="#">
+							<p className="text-muted" href="#">
 								Another resource
-							</a>
+							</p>
 						</li>
 						<li>
-							<a className="text-muted" href="#">
+							<p className="text-muted" href="#">
 								Final resource
-							</a>
-						</li>
-					</ul>
-				</div>
-				<div className="col-6 col-md">
-					<h5>Resources</h5>
-					<ul className="list-unstyled text-small">
-						<li>
-							<a className="text-muted" href="#">
-								Business
-							</a>
-						</li>
-						<li>
-							<a className="text-muted" href="#">
-								Education
-							</a>
-						</li>
-						<li>
-							<a className="text-muted" href="#">
-								Government
-							</a>
-						</li>
-						<li>
-							<a className="text-muted" href="#">
-								Gaming
-							</a>
-						</li>
-					</ul>
-				</div>
-				<div className="col-6 col-md">
-					<h5>About</h5>
-					<ul className="list-unstyled text-small">
-						<li>
-							<a className="text-muted" href="#">
-								Team
-							</a>
-						</li>
-						<li>
-							<a className="text-muted" href="#">
-								Locations
-							</a>
-						</li>
-						<li>
-							<a className="text-muted" href="#">
-								Privacy
-							</a>
-						</li>
-						<li>
-							<a className="text-muted" href="#">
-								Terms
-							</a>
+							</p>
 						</li>
 					</ul>
 				</div>
