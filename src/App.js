@@ -9,14 +9,18 @@ import Parceiros from "./containers/Parceiros/Parceiros";
 
 let _routes = (
 	<Switch>
-		<Route path={"/sobre"} exact component={Home} />
-		<Route path={"/parceiros"} exact component={Parceiros} />
-		<Route path={"/ongs"} exact component={Ongs} />
-		<Route path={"/selos"} exact component={Home} />
-		<Route path={"/validador"} exact component={Home} />
-		<Route path={"/contato"} exact component={Home} />
-		<Route path={"/home"} exact component={Home} />
-		<Redirect to={"/home"} />
+		<Route path={"/hackathon_letsong/sobre"} exact component={Home} />
+		<Route
+			path={"/hackathon_letsong/parceiros"}
+			exact
+			component={Parceiros}
+		/>
+		<Route path={"/hackathon_letsong/ongs"} exact component={Ongs} />
+		<Route path={"/hackathon_letsong/selos"} exact component={Home} />
+		<Route path={"/hackathon_letsong/validador"} exact component={Home} />
+		<Route path={"/hackathon_letsong/contato"} exact component={Home} />
+		<Route path={"/hackathon_letsong/home"} exact component={Home} />
+		<Redirect to={"/hackathon_letsong/home"} />
 	</Switch>
 );
 
