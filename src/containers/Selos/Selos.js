@@ -8,21 +8,21 @@ const Selos = (props) => {
 	const initial_selos = [
 		{
 			index: "1",
-			name: "Sebrae",
+			name: "Selo Vida",
 			img: "/hackathon_letsong/images/selos/1.png",
-			paragraph: "Parcerio LET'S ONG!",
+			paragraph: "Abrace essa causa",
 		},
 		{
 			index: "2",
-			name: "SocialHack",
+			name: "Selo Amigo",
 			img: "/hackathon_letsong/images/selos/2.png",
-			paragraph: "Parcerio LET'S ONG!",
+			paragraph: "Abrace essa causa",
 		},
 		{
 			index: "3",
-			name: "Startupdays",
+			name: "Selo Terra",
 			img: "/hackathon_letsong/images/selos/3.png",
-			paragraph: "Parcerio LET'S ONG!",
+			paragraph: "Abrace essa causa",
 		},
 	];
 	const [selos, setSelos] = useState(initial_selos);
