@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9006ba04f7e2c6db2f31eae971d52c59",
+    "revision": "57793f3c51dc12740cfb32777653dee2",
     "url": "/hackathon_letsong/index.html"
   },
   {
-    "revision": "954af028654a27ffc407",
+    "revision": "433f758594312bd0b239",
     "url": "/hackathon_letsong/static/css/main.8f0aea33.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/hackathon_letsong/static/js/2.ccae3f40.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "954af028654a27ffc407",
-    "url": "/hackathon_letsong/static/js/main.38c9c1d2.chunk.js"
+    "revision": "433f758594312bd0b239",
+    "url": "/hackathon_letsong/static/js/main.4ca81fd3.chunk.js"
   },
   {
     "revision": "fba1bb54bfdc9dcfcedd",

@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/hackathon_letsong/static/css/main.8f0aea33.chunk.css",
-    "main.js": "/hackathon_letsong/static/js/main.38c9c1d2.chunk.js",
-    "main.js.map": "/hackathon_letsong/static/js/main.38c9c1d2.chunk.js.map",
+    "main.js": "/hackathon_letsong/static/js/main.4ca81fd3.chunk.js",
+    "main.js.map": "/hackathon_letsong/static/js/main.4ca81fd3.chunk.js.map",
     "runtime-main.js": "/hackathon_letsong/static/js/runtime-main.40bd059f.js",
     "runtime-main.js.map": "/hackathon_letsong/static/js/runtime-main.40bd059f.js.map",
     "static/js/2.ccae3f40.chunk.js": "/hackathon_letsong/static/js/2.ccae3f40.chunk.js",
     "static/js/2.ccae3f40.chunk.js.map": "/hackathon_letsong/static/js/2.ccae3f40.chunk.js.map",
     "index.html": "/hackathon_letsong/index.html",
-    "precache-manifest.69647affed444289092dc0821e24e384.js": "/hackathon_letsong/precache-manifest.69647affed444289092dc0821e24e384.js",
+    "precache-manifest.551f95a7a40939b3c5e6aba31399b2ed.js": "/hackathon_letsong/precache-manifest.551f95a7a40939b3c5e6aba31399b2ed.js",
     "service-worker.js": "/hackathon_letsong/service-worker.js",
     "static/css/main.8f0aea33.chunk.css.map": "/hackathon_letsong/static/css/main.8f0aea33.chunk.css.map",
     "static/js/2.ccae3f40.chunk.js.LICENSE.txt": "/hackathon_letsong/static/js/2.ccae3f40.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.40bd059f.js",
     "static/js/2.ccae3f40.chunk.js",
     "static/css/main.8f0aea33.chunk.css",
-    "static/js/main.38c9c1d2.chunk.js"
+    "static/js/main.4ca81fd3.chunk.js"
   ]
 }
