@@ -15,7 +15,7 @@ let _routes = (
 			exact
 			component={Parceiros}
 		/>
-		<Route path={"/hackathon_letsong/ongs"} exact component={ONGs} />
+		<Route path={"/hackathon_letsong/ongs"} exact component={Ongs} />
 		<Route path={"/hackathon_letsong/selos"} exact component={Selos} />
 
 		<Route path={"/hackathon_letsong/home"} exact component={Home} />
